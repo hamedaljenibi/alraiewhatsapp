@@ -1,0 +1,6 @@
+{
+    "WELCOME": "Welcome",
+    "UNAUTHORIZED": "Unauthorized",
+    "FORBIDDEN": "Forbidden",
+    "SERVER_ERROR": "Internal server error"
+  }
