@@ -212,21 +212,51 @@ Security middleware enabled:
 
 ## Environment Variables
 
-Create `.env`
+Create a `.env` file in the project root and configure the following variables.
 
 ```env
-PORT=4000
+# Application Environment
+NODE_ENV=development        # development | production | test
 
-MONGO_URI=your_mongodb_connection
+# Database Connections
+MONGO_URI_PROD=your_production_mongodb_connection
+MONGO_URI_DEV=your_development_mongodb_connection
 
-OPENAI_API_KEY=your_openai_key
+# Authentication
+JWT_SECRET=your_jwt_secret
+JWT_REFRESH_SECRET=your_jwt_refresh_secret
 
-WHATSAPP_TOKEN=your_whatsapp_token
+# AI Integration
+OPENAI_API_KEY=your_openai_api_key
 
-WHATSAPP_PHONE_ID=your_phone_number_id
+# WhatsApp Business API
+WHATSAPP_TOKEN=your_whatsapp_access_token
 
-WHATSAPP_VERIFY_TOKEN=your_verify_token
+WHATSAPP_PHONE_ID=your_whatsapp_phone_number_id
+
+WHATSAPP_VERIFY_TOKEN=your_webhook_verify_token
 ```
+
+### Example
+
+```env
+NODE_ENV=development
+
+MONGO_URI_PROD=mongodb://production-db-url
+MONGO_URI_DEV=mongodb://localhost:27017/alraie-dev
+
+JWT_SECRET=your-secret-key
+JWT_REFRESH_SECRET=your-refresh-secret-key
+
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
+
+WHATSAPP_TOKEN=EAAGxxxxxxxxxxxxxxxx
+WHATSAPP_PHONE_ID=123456789012345
+WHATSAPP_VERIFY_TOKEN=verify_token_here
+```
+
+**Important:** Never commit your actual `.env` file to GitHub.
+Only upload a `.env.example` file with placeholder values for security.
 
 ---
 
