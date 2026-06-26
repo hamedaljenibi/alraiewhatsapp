@@ -307,17 +307,25 @@ Planned improvements:
 
 ## Demo
 
-Demo link:
+The project is currently deployed and accessible in production.
+
+### Live Deployment
 
 ```text
-Add deployment/demo link here
+https://bot.alraie.net
 ```
 
-API documentation:
+### Demo Resources
+
+For project demonstration materials, please check the following folder included in the repository:
 
 ```text
-Add Postman collection or API docs here
+/screenshots
 ```
+
+The screenshots folder contains:
+* WhatsApp chatbot interaction screenshots
+* Demo video / screen recording of the flow
 
 ---
 
