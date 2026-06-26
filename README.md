@@ -296,9 +296,6 @@ Key design patterns:
 
 Planned improvements:
 
-* Redis caching layer
-* Queue processing for background jobs
-* Enhanced analytics dashboard
 * Advanced AI conversation context memory
 * Web dashboard for chatbot management
 * Audit logging system
