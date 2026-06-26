@@ -11,7 +11,7 @@ export const processChatbotInteraction = async (
   subscription: any,
   language: Language,
   input: { type: 'text' | 'node'; payload: string }
-) => {
+) :Promise<any> => {
   // 1. Handle free-text inputs (AI Intent)
   if (input.type === 'text') {
     const message = input.payload;

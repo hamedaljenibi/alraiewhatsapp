@@ -62,7 +62,7 @@ const user = await UserModel.findOne({ fullPhone: { $regex: new RegExp(safePhone
       // If user typed the exact text label
       else {
         const exactMatch = lastNode.buttons.find(
-          (b) => b.label?.toLowerCase() === incomingText.toLowerCase()
+          (b:any) => b.label?.toLowerCase() === incomingText.toLowerCase()
         );
         if (exactMatch) {
           selectedNodeId = exactMatch.id;

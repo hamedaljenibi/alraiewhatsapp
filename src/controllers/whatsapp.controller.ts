@@ -77,7 +77,7 @@ export const handleWebhook = async (req: Request, res: Response) => {
       // Check if user is asking a specific AI question vs a general greeting
       if (intentData.confidence >= 0.5 && intentData.intent !== 'UNKNOWN') {
       if (user) {
-        const aiResponse = await resolveAIIntent(user._id.toString(), intentData, user?.subscription, lang);
+        const aiResponse = await resolveAIIntent(user._id.toString(), intentData, null, lang); //need to fix later
         if (aiResponse) {
           await sendWhatsAppText(fromPhone, aiResponse);
           } else {
