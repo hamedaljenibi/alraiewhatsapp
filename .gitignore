@@ -14,5 +14,3 @@ coverage
 
 logs
 *.log
-
-.env.example

@@ -45,8 +45,8 @@ export const assistantTopic: Record<string, ChatbotNode> = {
       {
         id: "ASSISTANT_LIMIT",
         label: {
-          en: "How many assistants can I add?",
-          ar: "كم عدد المساعدين المسموح؟",
+          en: "Max assistants?",
+          ar: "كم مساعد مسموح؟",
         },
       },
       {
@@ -274,11 +274,11 @@ export const assistantTopic: Record<string, ChatbotNode> = {
     buttons: [
       {
         id: "ASSISTANT_DELETE_HOW",
-        label: { en: "How to delete assistant", ar: "كيفية حذف المساعد" },
+        label: { en: "Delete assistant", ar: "كيفية حذف المساعد" },
       },
       {
         id: "ASSISTANT_DELETE_WHAT_HAPPENS",
-        label: { en: "What happens after delete", ar: "ماذا يحدث بعد الحذف" },
+        label: { en: "After deletion", ar: "ماذا يحدث بعد الحذف" },
       },
     ],
   },

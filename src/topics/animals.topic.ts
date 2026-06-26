@@ -18,7 +18,7 @@ export const animalsTopic: Record<string, ChatbotNode> = {
       { id: "ANIMAL_HEALTH", label: { en: "Health & vaccination", ar: "الصحة والتطعيم" } },
       { id: "ANIMAL_FOUND", label: { en: "Found animal", ar: "العثور على حيوان" } },
       { id: "ANIMAL_SICK", label: { en: "Sick animal", ar: "حيوان مريض" } },
-      { id: "ANIMAL_ASSET_COUNT", label: { en: "Asset counting (Application Only)", ar: "حصر الأصول (للتطبيق فقط)" } },
+      { id: "ANIMAL_ASSET_COUNT", label: { en: "Asset Count (App)", ar: "حصر الأصول (تطبيق)" } },
     ],
   },
 

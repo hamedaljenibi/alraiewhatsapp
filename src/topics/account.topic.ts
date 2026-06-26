@@ -12,7 +12,7 @@ export const accountTopic: Record<string, ChatbotNode> = {
     buttons: [
       { id: 'ACCOUNT_LOGIN', label: { en: 'Login / Signup', ar: 'تسجيل الدخول / إنشاء حساب' } },
       { id: 'ACCOUNT_PROFILE', label: { en: 'Profile Management', ar: 'إدارة الملف الشخصي' } },
-      { id: 'ACCOUNT_SECURITY', label: { en: 'Account Security', ar: 'أمان الحساب' } },
+      // { id: 'ACCOUNT_SECURITY', label: { en: 'Account Security', ar: 'أمان الحساب' } },
       { id: 'ACCOUNT_DELETE', label: { en: 'Delete Account', ar: 'حذف الحساب' } },
       { id: 'ACCOUNT_DATA', label: { en: 'Data & Privacy', ar: 'البيانات والخصوصية' } },
     ],
