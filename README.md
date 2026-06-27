@@ -365,15 +365,14 @@ MIT License
 ## Contributors
 
 Team Member
-1- Hamed Ali Bin Youan Aljneibi
-2- Alia Ali Bin Youan
-3- Thamna Ali Bin Youan 
-4- Bakhita Ali Bin Youan
-5- Himanshu Gupta
-6- Yash Jain
-7- Himanshu Sharma
-8- Ashish Jangir
-9- Aayush Pansari
-Developed for hackathon submission.
+* Hamed Ali Bin Youan Aljneibi
+* Alia Ali Bin Youan
+* Thamna Ali Bin Youan 
+* Bakhita Ali Bin Youan
+* Himanshu Gupta
+* Yash Jain
+* Himanshu Sharma
+* Ashish Jangir
+* Aayush Pansari
 
 Backend Engineering Team
